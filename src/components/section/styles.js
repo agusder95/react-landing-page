@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import Colors from '../../styles/colors'
+import colors from '../../styles/colors';
 
-export const SectionWrapper = styled.div`
+
+export const SectionWrapper = styled.section`
     width:100%;
     height:100%;
-    background-color: ${props => props.bg ? Colors.secondaryColor : Colors.mainColor},
-`;
+    background: ${props => props.bkgr ? colors.secondaryColor : colors.mainColor};
+`

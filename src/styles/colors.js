@@ -1,4 +1,4 @@
-const Colors = {
+const colors = {
     mainColor: `#ffffff`,
     secondaryColor: `#f2f9fe`,
     lightGray: `#ccc`,
@@ -7,4 +7,4 @@ const Colors = {
     mainBlack: `#000000`,
 }
 
-export default Colors
+export default colors
